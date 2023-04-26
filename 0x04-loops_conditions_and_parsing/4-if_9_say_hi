@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#This script is printing "best school" times
+var=0
+
+while [ $var -lt 10 ]
+do
+  if [ $var -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( var++ ))
+done
+
