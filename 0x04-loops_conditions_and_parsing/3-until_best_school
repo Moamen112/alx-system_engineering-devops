@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script is printing "best school" 10 times
+var=10
+until [ $var -lt 1 ]
+do
+    echo "Best School"
+    var=$((var - 1 ))
+done
