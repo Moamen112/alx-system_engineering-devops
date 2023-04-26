@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#   Prints numbers from 1 to 100
+#   Prints "FizzBuzz" if the number divided by 3 and 5
+#   Prints "Fizz" if the number divided by 3
+#   Prints "Buzz" if the number divided by 5.
+#   Otherwise, Print the number.
+
+for number in {1..100}
+do
+  if (( number % 3 == 0 && number % 5 == 0 ))
+  then
+    echo "FizzBuzz"
+  elif (( number % 3 == 0 ))
+  then
+    echo "Fizz"
+  elif (( number % 5 == 0 ))
+  then
+    echo "Buzz"
+  else
+    echo "$number"
+  fi
+done
