@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Listening to the ping 98 in localhost.
+
+nc -l localhost 98
