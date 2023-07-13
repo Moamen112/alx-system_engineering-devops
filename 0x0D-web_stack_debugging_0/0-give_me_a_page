@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# run apache on designated container
+# run apache on designated containeri
 
-echo "ServerName localhost" >> /etc/apache2.conf
+apt-get install apache2 -y
+echo "ServerName localhost" >> /etc/apache2/apache2.conf
 service apache2 start
